@@ -1,0 +1,37 @@
+.size{
+	font-size: 1.5em;
+}
+header h2{
+	font-weight: bold;
+	color: #7D7878;
+}
+
+.center{
+	display:block;
+	margin: 0 auto;
+	width: 25%;
+	padding-top: 50px;
+}
+.center-row{
+	padding: 10% 0 0 30%;
+	line-height: 2;
+	font-weight: bold;
+	color: #524E4E;
+}
+.color{
+	color: #5D5353;
+	font-weight: bold;
+}
+/* this is for about me section */
+.hover:hover{
+	color:#D24D4D;
+}
+/* this is for Image section */
+.img-hover:hover {
+	opacity: 0.7;
+}
+
+.glyphicon{
+	color: #636566;
+	font-size: 1.5em;
+}
