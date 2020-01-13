@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Accordion</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!-- setting icon -->
+		<link rel="shortcut icon" href="icon/icon.jpg" />
+		<!-- adding bootstrap links -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<!-- Ending Bootstrap Link -->
+		
+		<style>
+			header{
+				background-color: #CB4335;
+				padding: 5px;
+				color: #212F3D  ;
+			}
+			main{
+				margin-top:20px;
+				padding-bottom: 175px;
+		
+			}
+			footer{
+				background-color: #384238;
+				color: white;
+				padding: 50px;
+				text-align: center;
+				
+			}
+			.me{
+				color: #AEB6BF;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1 class="page-header text-center">Simple Accordion</h1>
+		</header>
+		<main class="container">
+			<div class="panel-group" id="accordion"> <!-- starting panel group -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h5 class="panel-title">
+							<a href="#collapse1" data-toggle="collapse" data-parent="#accordion">Collapse One</a>
+						</h5>
+					</div>
+					<div class="panel-collapse collapse in" id="collapse1">
+						<div class="panel-body">
+							<p class="text-success">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+								when an unknown printer took a galley of type and scrambled it to make a type 
+								specimen book. It has survived not only five centuries, but also the leap into 
+								electronic typesetting, remaining essentially unchanged. It was popularised in 
+								the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+								and more recently with desktop publishing software like Aldus PageMaker including 
+								versions of Lorem Ipsum.
+							</p>
+						</div>
+						<div class="panel-footer">I am footer</div>
+					</div>
+				</div><!-- ending collapse 1 -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h5 class="panel-title">
+							<a href="#collapse2" data-toggle="collapse" data-parent="#accordion">Collapse Two</a>
+						</h5>
+					</div>
+					<div class="panel-collapse collapse" id="collapse2">
+						<div class="panel-body">
+							<p class="text-danger">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+								when an unknown printer took a galley of type and scrambled it to make a type 
+								specimen book. It has survived not only five centuries, but also the leap into 
+								electronic typesetting, remaining essentially unchanged. It was popularised in 
+								the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+								and more recently with desktop publishing software like Aldus PageMaker including 
+								versions of Lorem Ipsum.
+							</p>
+						</div>
+						<div class="panel-footer">I am panel footer two</div>
+					</div>
+				</div><!-- ending collapse 2 -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h5 class="panel-title">
+							<a href="#collapse3" data-toggle="collapse" data-parent="#accordion">Collapse three</a>
+						</h5>
+					</div>
+					<div class="panel-collapse collapse" id="collapse3">
+						<div class="panel-body">
+							<p class="text-primary">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+								when an unknown printer took a galley of type and scrambled it to make a type 
+								specimen book. It has survived not only five centuries, but also the leap into 
+								electronic typesetting, remaining essentially unchanged. It was popularised in 
+								the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+								and more recently with desktop publishing software like Aldus PageMaker including 
+								versions of Lorem Ipsum.
+							</p>
+						</div>
+						<div class="panel-footer">I am panel footer three</div>
+					</div>
+				</div>
+			</div> <!-- ending panel-group-->
+		</main><!-- ending main -->
+		<footer>
+			<p>Made by <span class="me">Merina Kawser</span></p>
+		</footer>
+	</body>
+</html>

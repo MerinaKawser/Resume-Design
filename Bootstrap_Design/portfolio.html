@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- setting a icon -->
+		<link rel="shortcut icon" type="image/png" href="icon/portfolio-icon.png" />
+		
+		<!-- adding bootstrap v3 files v3-> version 3-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<!-- ending bootstrap v3 files -->
+		
+		<style>
+			
+			footer{
+				background-color:#384238;
+				color: white;
+				text-align: center;
+				padding: 20px;
+			}
+			.me{
+				color: #AEB6BF;
+			}
+			.hover:hover{
+				background-color: tomato;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<!-- nav start -->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">Portfolio</a>
+				</div>
+				
+				<!-- left nav start -->
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul><!-- left nav end -->
+				
+				<!-- rigth nav start-->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+				<!-- right nav end -->
+			</div>
+		</nav>
+		<!-- nav end -->
+		
+		<!-- start header -->
+		<header class="text-center space">
+			<div class=" center jumbotron ">
+				<h1>My Portfolio</h1>
+				<p>Hi, I am Merina Kawser. I am a Web Disigner and I am passionate about Web Disigning.</p>
+			</div>
+		</header>
+		<!-- end header -->
+		
+		<!-- start main -->
+		<main>
+			<h4 class="text-center">Some of My Work</h4>
+			
+			<div class="text-center text-danger">
+				<!-- start 1st row -->
+				<div class="row">
+					<div class="col-md-3">
+						<div class="caption">Media Object</div>
+						<div class="thumbnail hover">
+							<div class="caption">Media Object</div>
+							<img src="img/mediaObject.png" />
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="caption"> Simple Thumbnail Images</div>
+						<div class="thumbnail hover">
+							<img src="img/image.png" style="height:210px;" />
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="caption">Simple Accordion</div>
+						<div class="thumbnail hover">
+							<img src="img/Accordion.png" style="height:210px;" />
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="caption">Table Layout</div>
+						<div class="thumbnail hover">
+							<img src="img/simpleTableLayout.png" style="height:210px;" />
+						</div>
+					</div>
+				</div>
+				<!-- end 1st row-->
+				
+				<!-- start 2nd row -->
+				<div class="row">
+					<div class="col-md-3">
+						<div class="caption">Table Layout</div>
+						<div class="thumbnail hover">
+							<img src="img/simpleTableLayout.png" style="height:210px;" />
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="caption">Simple Accordion</div>
+						<div class="thumbnail hover">
+							<img src="img/Accordion.png" style="height:210px;" />
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="caption">Media Object</div>
+						<div class="thumbnail hover">
+							<img src="img/mediaObject.png" style="height:210px;" />
+						</div>
+					</div>
+					<div class="col-md-3">
+					<div class="caption"> Simple Thumbnail Images</div>
+						<div class="thumbnail hover">
+							<img src="img/image.png" style="height:210px;" />
+						</div>
+					</div>
+				</div>
+				<!-- end 2nd row -->
+			</div>
+		</main>
+		<!-- end main -->
+		
+		<!-- start footer -->
+		<footer>
+			<p>Made by <span class="me">Merina Kawser</span></p>
+		</footer>
+		<!-- end footer -->
+	</body>
+</html>
